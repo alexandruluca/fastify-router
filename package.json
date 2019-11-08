@@ -1,19 +1,27 @@
 {
-  "name": "fastify-router",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alexandruluca/fastify-router.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/alexandruluca/fastify-router/issues"
-  },
-  "homepage": "https://github.com/alexandruluca/fastify-router#readme"
+	"name": "fastify-router",
+	"version": "1.0.0",
+	"description": "",
+	"main": "./dist",
+	"scripts": {
+		"build": "rm -rf dist && tsc"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/alexandruluca/fastify-router.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/alexandruluca/fastify-router/issues"
+	},
+	"homepage": "https://github.com/alexandruluca/fastify-router#readme",
+	"dependencies": {
+		"lodash.defaultsdeep": "^4.6.1",
+		"serve-static": "^1.14.1"
+	},
+	"devDependencies": {
+		"@types/node": "^12.12.6",
+		"typescript": "^3.7.2"
+	}
 }
