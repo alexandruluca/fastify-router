@@ -3,7 +3,7 @@
 		"resolveJsonModule": true,
 		"esModuleInterop": true,
 		"allowSyntheticDefaultImports": true,
-		"declaration": false,
+		"declaration": true,
 		"outDir": "./dist",
 		"emitDecoratorMetadata": true,
 		"experimentalDecorators": true,
@@ -19,7 +19,7 @@
 		"test"
 	],
 	"filesGlob": [
-        "./src//**/*.ts",
+        "./src/**/*.ts",
         "!./node_modules/**/*.ts"
     ]
 }

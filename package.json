@@ -2,7 +2,8 @@
 	"name": "fastify-router",
 	"version": "1.0.0",
 	"description": "",
-	"main": "./dist",
+	"main": "./dist/index.js",
+	"types": "index.d.ts",
 	"scripts": {
 		"build": "rm -rf dist && tsc"
 	},
