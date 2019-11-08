@@ -13,7 +13,7 @@ const router = new Router();
 
 router.providedIn(app);
 
-.app.listen(8000, (err, address) => {
+app.listen(8000, (err, address) => {
 	if (err) {
 		throw err;
 	}
